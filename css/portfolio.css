@@ -1,0 +1,35 @@
+/* mein */
+body {
+  color: var(--main-color);
+  background-color: var(--main-white-color);
+  font-family: var(--primary-font);
+  font-size: var(--secondary-text-size);
+}
+ul {
+  list-style: none;
+}
+/* button */
+.button {
+  font-family: inherit;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  line-height: 1.6px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+  color: var(--main-white-color);
+  background-color: var(--color-accent);
+}
+.title-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.products .title {
+  color: var(--paragraph-color);
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}

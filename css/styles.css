@@ -1,34 +1,12 @@
 /* Body */
 body {
   color: var(--main-color);
-  background-color: var(--main-background);
+  background-color: var(--main-white-color);
   font-family: var(--primary-font);
+  font-size: var(--primary-text-size);
 }
 ul {
   list-style: none;
-}
-
-/* Header */
-.page-header {
-  background-color: var(--main-background);
-}
-.logo {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-.word-header {
-  color: #000000;
-}
-.site-nav .link {
-  color: var(--main-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 14;
-  text-decoration: none;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--color-accent);
 }
 
 /* Hero */
@@ -37,14 +15,28 @@ ul {
   background-color: #2f303a;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--main-white-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+/* Features */
+.clientes .title {
+  color: var(--main-color);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.clients .p {
+  color: var(--paragraph-color);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* section */
@@ -52,46 +44,40 @@ ul {
   color: var(--main-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* Features */
-.clientes .title {
-  color: var(--main-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.clients .p {
-  color: var(--paragraph-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 7;
-  letter-spacing: 0.03em;
-}
-
 /* Team */
 .section .worker-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .section .profesion {
   color: var(--paragraph-color);
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* Footer */
 
-.word-footer {
-  color: #ffffff;
+/* button */
+.button {
+  font-family: inherit;
+  color: var(--main-white-color);
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button:hover .button:focus {
+  background-color: #188ce8;
 }
