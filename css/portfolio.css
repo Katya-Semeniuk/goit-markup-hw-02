@@ -3,19 +3,25 @@ body {
   color: var(--main-color);
   background-color: var(--main-white-color);
   font-family: var(--primary-font);
-  font-size: var(--secondary-text-size);
+  font-size: var(--primary-text-size);
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 /* button */
 .button {
   font-family: inherit;
   background-color: #f5f4fa;
+  color: var(--main-color);
+  font-size: var(--secondary-text-size);
   font-weight: 500;
-  line-height: 1.6px;
+  line-height: 1.62 px;
   text-align: center;
-  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -30,6 +36,5 @@ ul {
 }
 .products .title {
   color: var(--paragraph-color);
-  line-height: 1.9;
-  letter-spacing: 0.03em;
+  line-height: 1.88;
 }

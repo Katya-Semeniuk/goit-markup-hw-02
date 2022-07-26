@@ -5,11 +5,21 @@
   --main-white-color: #ffffff;
   --primary-text-size: 14px;
   --secondary-text-size: 16px;
-}
-
-:root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+   width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Header */
@@ -56,10 +66,15 @@
 }
 
 /* Footer */
+.page-footer {
+  background-color: #2f303a;
+}
 .word-footer {
   color: var(--main-white-color);
 }
-
+.adress {
+  font-style: normal;
+}
 .adress > a {
   color: var(--main-white-color);
   line-height: 1.7;
@@ -68,7 +83,6 @@
 .list .link {
   line-height: 1.7;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
